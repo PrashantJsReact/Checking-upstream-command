@@ -20,7 +20,7 @@ let data = [
     },
   },
   {
-    name: 'Bob',
+    name: 'Bobbbbb',
     job: 'Engineer',
     location: {
       addres: {
