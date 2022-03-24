@@ -6,6 +6,12 @@ let data = [
     state: 'Washington',
   },
   {
+    name: 'Pintu',
+    job: 'Html developer',
+    city: 'Chandra Layout',
+    state: 'Bangalore',
+  },
+  {
     name: 'Nazmus',
     job: 'Software Engineer',
     location: {
