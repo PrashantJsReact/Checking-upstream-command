@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Object</title>
+  </head>
+  <body>
+    <h1><center>Accessing object from nested object!!</center></h1>
+    <p>
+      If you have this array of objects, how can you extract just the name and
+      city?
+    </p>
+    <pre>
+      [
+        {
+          "name": "Nazmus",
+          "job": "Software Engineer",
+          "location": {
+            "city": "Boston",
+            "state": "Massachusetts",
+            }
+        },
+        {
+          "name": "Bill",
+          "job": "CEO",
+          "city": "Seattle",
+          "state": "Washington"
+        },
+        {
+          "name": "Bob",
+          "job": "Engineer",
+          "location": {
+            "addres": {
+              "state": "New York",
+              "city": "New York City",
+              "zip": "11323"
+            }
+          }
+        },
+        {
+          "name": "Chris",
+          "job": "Project Manager",
+          "address": {
+            "location": {
+              "quadrant": {
+                  "block": 1,
+                  "state": "Texas",
+                  "city": "Austin"
+              }
+            }
+          }
+        }
+      ]
+      
+      </pre
+    >
+    <script src="./js/app.js"></script>
+  </body>
+</html>
