@@ -12,7 +12,7 @@ let data = [
     state: 'Bangalore',
   },
   {
-    name: 'Nazmus',
+    name: 'Nazmuss',
     job: 'Software Engineer',
     location: {
       city: 'Boston',
